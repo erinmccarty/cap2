@@ -28,10 +28,10 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(1000, 800, WEBGL);
+  createCanvas(1920, 1080, WEBGL);
   
   cam=createCapture(VIDEO);
-  cam.size(1000, 800);
+  cam.size(1920, 1080);
   cam.hide();
   
   //frameRate(24);
